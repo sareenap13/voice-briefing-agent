@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voice Briefing Agent</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <h1>Voice Briefing Agent</h1>
+
+    <p>Paste an article below and turn it into a 60-second audio briefing.</p>
+
+    <textarea id="article" rows="12" cols="70"
+        placeholder="Paste your article here..."></textarea>
+
+    <br><br>
+
+    <button id="generate">Generate Briefing</button>
+
+    <h2>Briefing</h2>
+
+    <p id="status"></p>
+    <p id="summary"></p>
+
+    <audio id="audio" controls></audio>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
